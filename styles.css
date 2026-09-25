@@ -1,0 +1,57 @@
+html,
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.intro {
+    display: flex;
+    background-image: url("images/texture.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.intro header{
+ width: 70%;
+    
+}
+
+
+.intro .summary,
+.intro .preamble {
+    width: 30%;
+}
+
+
+.main.supporting {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(226, 229, 223);
+
+}
+
+.explanation,
+.participation,
+.benefits,
+.requirements {
+    width: 25%;
+}
+
+.footer {
+  flex-wrap: nowrap;
+}
+
+.sidebar .wrapper {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(236, 223, 205);
+
+}
+
+.design-selection,
+.design-archives,
+.zen-resources {
+    width: 30%;
+}
